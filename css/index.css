@@ -1,0 +1,65 @@
+@import url('https://fonts.cdnfonts.com/css/ibm-plex-mono-3');
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "IBM Plex Mono", sans-serif;
+}
+
+html {
+  background: url(../images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: rgba(255, 255, 255, 0.1);
+  text-decoration: none;
+}
+
+#backgroundLayer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(6.6px);
+  -webkit-backdrop-filter: blur(6.6px);
+}
+
+#logoDiv img {
+  width: 12em;
+  height: 12em;
+  border: 3px solid rgba(255, 255, 255, 0.1);
+  border-radius: 2em;
+  margin-bottom: 2em;
+}
+
+#mainDiv {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+#domainDiv {
+  color: white;
+  font-weight: 100;
+  letter-spacing: 0.05em;
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+#contactDiv {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 100;
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+}
